@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-export const Start = () => {
+const Header = () => {
 
     const [classActive, setClass] = useState("hamburger");
     const [menuSide, setMenu] = useState("header--nav");
@@ -38,5 +38,5 @@ export const Start = () => {
     )
 }
 
-export default Start;
+export default Header;
 
