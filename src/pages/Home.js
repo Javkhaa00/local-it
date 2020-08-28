@@ -5,12 +5,14 @@ import WhoWeAre from '../containers/WhoWeAre';
 import Contact from '../containers/Contact';
 import Why from '../containers/Why';
 import Local from '../containers/Local';
+import TheApp from '../containers/TheApp';
 
 export const Home = () => {
     return (
-        <div style={{overflowX: "hidden"}}>
+        <div style={{ overflowX: "hidden" }}>
             <Header />
             <Start />
+            <TheApp />
             <WhoWeAre />
             <Why />
             <Local />
