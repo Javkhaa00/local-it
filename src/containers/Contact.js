@@ -12,11 +12,11 @@ const Contact = () => {
                 <img src="/assets/call.png" alt="call" />
                 <span>+1 878 878 7878</span>
             </div>
-            <div className="contacts--wrappers">
+            <div className="contacts--wrappers" style={{ paddingBottom: "12px" }}>
                 <img src="/assets/msg.png" alt="message" />
                 <span>info@email.com</span>
             </div>
-            <div className="contacts--wrappers">
+            <div className="contacts--wrappers" style={{paddingBottom: "36px"}}>
                 <img src="/assets/location.png" alt="location" />
                 <span>
                     Нэст ахлах сургууль, Намъяанжүгийн гудамж 7а,
