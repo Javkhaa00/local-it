@@ -3,8 +3,7 @@ import React, { useState } from 'react';
 export const Start = () => {
 
     const [classActive, setClass] = useState("hamburger");
-    const [menuSide, setMenu] = useState("menu-side");
-
+    const [menuSide, setMenu] = useState("header--nav");
 
     return (
         <div className="header">
