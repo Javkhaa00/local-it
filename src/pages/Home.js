@@ -4,6 +4,7 @@ import Start from '../containers/Start'
 import WhoWeAre from '../containers/WhoWeAre';
 import Contact from '../containers/Contact';
 import Why from '../containers/Why';
+import Local from '../containers/Local';
 
 export const Home = () => {
     return (
@@ -12,6 +13,7 @@ export const Home = () => {
             <Start />
             <WhoWeAre />
             <Why />
+            <Local />
             <Contact />
         </div>
     )
