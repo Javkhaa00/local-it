@@ -9,7 +9,13 @@ export const UsCard = () => {
 
         return (
             <div className="whoweare--cards">
-                <img src={el.imgUrl} alt="profile" />
+                <img
+                    src={el.imgUrl} 
+                    alt="profile"
+                    style={{
+                        marginTop: "-70px"
+                    }}
+                />
                 <span className="whoweare--cards--name">{el.name}</span>
                 <span className="whoweare--cards--position">{el.position}</span>
                 <span className="desc-text">{el.text}</span>
