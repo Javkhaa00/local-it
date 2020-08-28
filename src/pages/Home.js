@@ -1,9 +1,9 @@
 import React from 'react'
-import Start from '../containers/Start';
+import Header from '../containers/Header';
 
 export const Home = () => {
     return (
-        <Start />
+        <Header />
     )
 }
 
