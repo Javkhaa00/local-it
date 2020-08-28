@@ -1,4 +1,10 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {
+    faPhoneAlt,
+    faEnvelope,
+    faMapMarkerAlt
+} from '@fortawesome/free-solid-svg-icons'
 
 const Contact = () => {
     return (
@@ -9,15 +15,15 @@ const Contact = () => {
                 Consectetur adipiscing elit, sed do eiusmod temport incididunt ut labore et dolor temprt incididunt ut labore dolore magna.
             </span>
             <div className="contacts--wrappers">
-                <img src="/assets/call.png" alt="call" />
+                <FontAwesomeIcon icon={faPhoneAlt} size="lg" className="fontawesome" />
                 <span>+1 878 878 7878</span>
             </div>
             <div className="contacts--wrappers" style={{ paddingBottom: "12px" }}>
-                <img src="/assets/msg.png" alt="message" />
+                <FontAwesomeIcon icon={faEnvelope} size="lg" className="fontawesome" />
                 <span>info@email.com</span>
             </div>
-            <div className="contacts--wrappers" style={{paddingBottom: "36px"}}>
-                <img src="/assets/location.png" alt="location" />
+            <div className="contacts--wrappers" style={{ paddingBottom: "36px" }}>
+                <FontAwesomeIcon icon={faMapMarkerAlt} size="lg" className="fontawesome" />
                 <span>
                     Нэст ахлах сургууль, Намъяанжүгийн гудамж 7а,
                     13р хороолол, 18-р хороо, Баянзүрх дүүрэг, Улаанбаатар хот

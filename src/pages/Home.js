@@ -3,6 +3,7 @@ import Header from '../containers/Header';
 import Start from '../containers/Start'
 import WhoWeAre from '../containers/WhoWeAre';
 import Contact from '../containers/Contact';
+import Why from '../containers/Why';
 
 export const Home = () => {
     return (
@@ -10,6 +11,7 @@ export const Home = () => {
             <Header />
             <Start />
             <WhoWeAre />
+            <Why />
             <Contact />
         </div>
     )
