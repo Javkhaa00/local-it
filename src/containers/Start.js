@@ -3,13 +3,15 @@ import React from 'react';
 const Start = () => {
     return (
         <div className="start">
-            <span className="title">Know what you spend, know what you get</span>
-            <span className="start--what">
-                What's your budget? Plug it in and find what your community has to offer
-            </span>
-            <div className="start--stores">
-                <img src="/assets/google-play.svg" alt="google-play" />
-                <img src="/assets/app-store.svg" alt="app-store" />
+            <div className="start--column">
+                <span className="start--title">Know what you spend, know what you get</span>
+                <span className="start--what">
+                    What's your budget? Plug it in and find what your community has to offer
+                </span>
+                <div className="start--stores">
+                    <img src="/assets/google-play.svg" alt="google-play" />
+                    <img src="/assets/app-store.svg" alt="app-store" />
+                </div>
             </div>
             <div className="start--phones">
                 <div className="start--phones--circle1" />

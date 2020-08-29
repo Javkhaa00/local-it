@@ -32,6 +32,9 @@ const Header = () => {
                     <li><a>The app</a></li>
                     <li><a>Who we are?</a></li>
                     <li><a>Contact Us</a></li>
+                    <li>
+                        <div className="header--button">Are you a Local Business?</div>
+                    </li>
                 </ul>
             </nav>
         </div>

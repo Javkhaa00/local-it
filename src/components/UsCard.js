@@ -12,13 +12,11 @@ export const UsCard = () => {
                 <img
                     src={el.imgUrl} 
                     alt="profile"
-                    style={{
-                        marginTop: "-70px"
-                    }}
+                    className="whoweare--prof"
                 />
                 <span className="whoweare--cards--name">{el.name}</span>
                 <span className="whoweare--cards--position">{el.position}</span>
-                <span className="desc-text">{el.text}</span>
+                <span className="whoweare--cards--text">{el.text}</span>
             </div >
         )
     }
