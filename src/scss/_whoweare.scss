@@ -51,8 +51,9 @@
   }
 }
 
-@media (min-width: 1440px) and (max-width: 1980px) {
+@media (min-width: 1920px) {
   .whoweare {
+    margin-top: 160px;
     height: 60vh;
     display: flex;
     justify-content: center;
