@@ -1,7 +1,41 @@
 .app {
-    width: 100%;
+  width: 100%;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 24px;
+  &--carousel {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    flex-direction: row;
+    overflow-x: auto;
+    img {
+        padding: 24px 16px 24px 16px;
+        height: 467px;
+        width: 229px;
+    }
+    &--title {
+      width: 80%;
+      text-align: center;
+      font-size: 32px;
+      font-family: "Poppins", sans-serif;
+      color: rgb(0, 0, 0);
+      line-height: 1.925;
+    }
+    &--text {
+      width: 80%;
+      text-align: center;
+      font-size: 16px;
+      font-family: "Poppins", sans-serif;
+      color: rgb(117, 117, 117);
+      line-height: 1.25;
+    }
+  }
+  &--circle1 {
+  }
+  &--circle2 {
+  }
+  &--circle3 {
+  }
 }
