@@ -9,8 +9,12 @@ export const LocalCard = () => {
 
         return (
             <div className="local--cards">
-                <img src={el.imgUrl} alt="profile" />
-                <span className="local--cards--text">{el.text}</span>
+                <div className="local--cards--imgs">
+                    <img src={el.imgUrl} alt="profile" />
+                </div>
+                <div className="local--cards--texts">
+                    <span className="local--cards--text">{el.text}</span>
+                </div>
             </div >
         )
     }
