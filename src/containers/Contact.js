@@ -16,15 +16,15 @@ const Contact = () => {
             </span>
             <div className="contacts--wrappers">
                 <FontAwesomeIcon icon={faPhoneAlt} size="lg" className="fontawesome" />
-                <span>+1 878 878 7878</span>
+                <span className="contacts--texts">+1 878 878 7878</span>
             </div>
             <div className="contacts--wrappers" style={{ paddingBottom: "12px" }}>
                 <FontAwesomeIcon icon={faEnvelope} size="lg" className="fontawesome" />
-                <span>info@email.com</span>
+                <span className="contacts--texts">info@email.com</span>
             </div>
             <div className="contacts--wrappers" style={{ paddingBottom: "36px" }}>
                 <FontAwesomeIcon icon={faMapMarkerAlt} size="lg" className="fontawesome" />
-                <span>
+                <span className="contacts--texts">
                     Нэст ахлах сургууль, Намъяанжүгийн гудамж 7а,
                     13р хороолол, 18-р хороо, Баянзүрх дүүрэг, Улаанбаатар хот
                 </span>
