@@ -6,6 +6,7 @@ import Contact from '../containers/Contact';
 import Why from '../containers/Why';
 import Local from '../containers/Local';
 import TheApp from '../containers/TheApp';
+import Footer from '../containers/Footer';
 
 export const Home = () => {
     return (
@@ -17,6 +18,7 @@ export const Home = () => {
             <Why />
             <Local />
             <Contact />
+            <Footer />
         </div>
     )
 }
