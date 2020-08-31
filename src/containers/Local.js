@@ -7,6 +7,7 @@ const Local = () => {
         <div className="local">
             <span className="title">Are you a Local Business</span>
             <LocalCard />
+            <div className="local--more">Learn More</div>
         </div>
     )
 }
