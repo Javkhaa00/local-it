@@ -17,21 +17,21 @@
     z-index: 10;
     display: flex;
     align-items: flex-start;
-    position: absolute;
+    position: fixed;
     background-color: $white;
     top: 0;
     transition: 0.3s ease-in-out;
-    right: -100vw;
-    width: 100%;
+    right: 0;
+    width: 0%;
     height: 100vh;
-    overflow: hidden;
+    overflow-x: hidden;
   }
   &--nav-hidden {
     display: flex;
     justify-content: center;
     z-index: 10;
     align-items: flex-start;
-    position: absolute;
+    position: fixed;
     background-color: $white;
     top: 0;
     transition: 0.3s ease-in-out;
@@ -103,12 +103,12 @@
 .hamburger {
   z-index: 100;
   display: inline-block;
-  position: absolute;
+  position: fixed;
   right: 2rem;
 }
 .change {
   z-index: 100;
-  position: absolute;
+  position: fixed;
   right: 2em;
 }
 .stick,
