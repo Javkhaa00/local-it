@@ -7,7 +7,7 @@
   align-items: center;
   padding-bottom: 24px;
   &--carousel {
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
     flex-direction: row;
@@ -32,7 +32,7 @@
       line-height: 1.925;
     }
     &--text {
-      width: 80%;
+      width: 90%;
       text-align: center;
       font-size: 16px;
       font-family: "Poppins", sans-serif;
@@ -71,7 +71,7 @@
       img {
         padding: 24px 64px 24px 64px;
         height: 567px;
-        width: 289px;
+        width: 299px;
       }
       &--title {
         width: 50%;
@@ -82,7 +82,7 @@
         line-height: 1.925;
       }
       &--text {
-        width: 75%;
+        width: 87%;
         // text-align: center;
         font-size: 16px;
         font-family: "Poppins", sans-serif;
@@ -96,5 +96,8 @@
     }
     &--circle3 {
     }
+  }
+  .swiper-container {
+    
   }
 }
