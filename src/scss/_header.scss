@@ -165,6 +165,10 @@
       line-height: 2.718;
       text-align: center;
     }
+    &--button:hover {
+      opacity: 0.75;
+      transform: translateY(-1px);
+    }
     &--nav {
       z-index: 10;
       display: flex;
