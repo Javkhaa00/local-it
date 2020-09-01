@@ -6,6 +6,9 @@ const WhoWeAre = () => {
         <div className="whoweare">
             <span className="title">Who we are?</span>
             <UsCard />
+            <div className="whoweare--circle1"/>
+            <div className="whoweare--circle2" />
+            <div className="whoweare--circle3" />
         </div>
     )
 }
