@@ -33,7 +33,7 @@ const Header = () => {
                     <li><a>Who we are?</a></li>
                     <li><a>Contact Us</a></li>
                     <li>
-                        <div className="header--button">Are you a Local Business?</div>
+                        <span className="header--button">Are you a Local Business?</span>
                     </li>
                 </ul>
             </nav>
