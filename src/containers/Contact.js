@@ -28,7 +28,7 @@ const Contact = () => {
                     <span className="contacts--texts">
                         Нэст ахлах сургууль, Намъяанжүгийн гудамж 7а,
                         13р хороолол, 18-р хороо, Баянзүрх дүүрэг, Улаанбаатар хот
-                </span>
+                    </span>
                 </div>
             </div>
             <div className="contacts--phone">
