@@ -24,10 +24,9 @@ const Contact = () => {
                     <span className="contacts--texts">info@email.com</span>
                 </div>
                 <div className="contacts--wrappers" style={{ paddingBottom: "36px" }}>
-                    <FontAwesomeIcon icon={faMapMarkerAlt} size="lg" className="fontawesome" />
+                    <FontAwesomeIcon icon={faMapMarkerAlt} size="lg" className="fontawesome" style={{paddingRight: "26px"}} />
                     <span className="contacts--texts">
-                        Нэст ахлах сургууль, Намъяанжүгийн гудамж 7а,
-                        13р хороолол, 18-р хороо, Баянзүрх дүүрэг, Улаанбаатар хот
+                        1750 13th St, Boulder, CO 80302
                     </span>
                 </div>
             </div>
