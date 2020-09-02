@@ -141,10 +141,10 @@
 
 @media (min-width: 1920px) {
   .header {
+    background-color: inherit;
     align-items: center;
     justify-content: center;
     &--logo {
-      justify-content: center;
       width: 20%;
       display: flex;
       align-items: center;
@@ -202,8 +202,9 @@
   }
 }
 
-@media (min-width: 1400px) {
+@media (min-width: 1400px) and (max-width: 1919px) {
   .header {
+    background-color: inherit;
     align-items: center;
     justify-content: center;
     &--logo {
@@ -232,6 +233,7 @@
       opacity: 0.75;
     }
     &--nav {
+      background: inherit;
       z-index: 10;
       display: flex;
       position: unset;
