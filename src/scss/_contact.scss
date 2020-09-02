@@ -71,11 +71,35 @@
       flex-direction: column;
     }
     &--phone {
+      position: relative;
       height: 100%;
       display: flex;
       align-items: center;
-      justify-content: center;
       width: 40%;
+      &--img {
+        z-index: 7;
+      }
+      &--circle1 {
+        border-radius: 50%;
+        background-color: rgb(119, 217, 180);
+        opacity: 0.302;
+        position: absolute;
+        left: 104px;
+        top: 184px;
+        width: 382px;
+        height: 382px;
+        z-index: 4;
+      }
+      &--circle2 {
+        border-radius: 50%;
+        background-color: rgb(119, 217, 180);
+        position: absolute;
+        left: 64px;
+        top: 24px;
+        width: 243px;
+        height: 243px;
+        z-index: 5;
+      }
     }
     &--us {
       width: 70%;

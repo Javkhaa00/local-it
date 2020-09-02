@@ -32,9 +32,11 @@ const Contact = () => {
                 </div>
             </div>
             <div className="contacts--phone">
-                <div>
+                <div className="contacts--phone--img">
                     <img src="/assets/contact-pic.png" alt="phone" />
                 </div>
+                <div className="contacts--phone--circle1" />
+                <div className="contacts--phone--circle2" />
             </div>
         </div>
     )

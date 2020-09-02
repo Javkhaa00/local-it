@@ -6,9 +6,9 @@ const Why = () => {
         <div className="why">
             <span className="title">Why We Are Doing This?</span>
             <WhyCard />
-            {/* <div className="why--circle1" />
+            <div className="why--circle1" />
             <div className="why--circle2" />
-            <div className="why--circle3" /> */}
+            <div className="why--circle3" />
         </div>
     )
 }
