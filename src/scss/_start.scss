@@ -195,3 +195,104 @@
     }
   }
 }
+
+@media (min-width: 1400px) and (max-width: 1919px) {
+  .start {
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 48px;
+    &--column {
+      display: flex;
+      align-items: flex-end;
+      width: 35%;
+    }
+    &--title {
+      width: 80%;
+      text-align: unset;
+      font-size: 42px;
+      font-family: "Poppins", sans-serif;
+      color: rgb(0, 0, 0);
+      font-weight: bold;
+      line-height: 1.052;
+    }
+    &--what {
+      width: 80%;
+      font-size: 20px;
+      text-align: left;
+      font-family: "Poppins", sans-serif;
+      color: rgb(117, 117, 117);
+      line-height: 1.5;
+    }
+    &--stores {
+      padding-top: 22px;
+      display: flex;
+      width: 80%;
+      flex-direction: row;
+      justify-content: unset;
+      align-items: center;
+      img {
+        width: 150px;
+        margin-left: 4px;
+        height: 64px;
+      }
+    }
+    &--phones {
+      width: 55%;
+      display: flex;
+      padding-top: 64px;
+      position: relative;
+      &--circle1 {
+        height: 452px;
+        top: 24px;
+        left: 16px;
+        position: absolute;
+        width: 452px;
+        border-radius: 50%;
+        background: rgb(72, 192, 147);
+        opacity: 0.5;
+      }
+      &--circle2 {
+        height: 242px;
+        top: 64px;
+        right: 10px;
+        position: absolute;
+        width: 242px;
+        opacity: 0.25;
+        border-radius: 50%;
+        background: rgb(72, 192, 147);
+      }
+      &--circle3 {
+        height: 262px;
+        bottom: 16px;
+        right: 8px;
+        position: absolute;
+        width: 262px;
+        opacity: 0.25;
+        border-radius: 50%;
+        background: rgb(72, 192, 147);
+      }
+      &--img1 {
+        position: center;
+        left: -12px;
+        z-index: 2;
+        img {
+          height: 740px;
+        }
+      }
+      &--img2 {
+        z-index: 1;
+        position: absolute;
+        right: 32px;
+        bottom: 0;
+        padding-top: 24px;
+        img {
+          height: 680px;
+        }
+      }
+    }
+  }
+}

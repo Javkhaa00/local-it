@@ -144,6 +144,7 @@
     align-items: center;
     justify-content: center;
     &--logo {
+      justify-content: center;
       width: 20%;
       display: flex;
       align-items: center;
@@ -176,6 +177,68 @@
       justify-content: center;
       right: unset;
       width: 40%;
+      height: unset;
+    }
+    &--nav-hidden {
+      display: none;
+    }
+    ul {
+      margin: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: row;
+      padding: 0;
+      list-style: none;
+    }
+    li {
+      display: flex;
+      align-items: flex-start;
+      padding: 0px 20px 0px 20px;
+    }
+  }
+  .hamburger {
+    display: none;
+  }
+}
+
+@media (min-width: 1400px) {
+  .header {
+    align-items: center;
+    justify-content: center;
+    &--logo {
+      width: 28%;
+      display: flex;
+      align-items: center;
+      img {
+        height: 4rem;
+      }
+    }
+    &--button {
+      display: flex;
+      padding: 0px 16px 0px 16px;
+      border-width: 2px;
+      border-color: rgb(119, 217, 180);
+      border-style: solid;
+      border-radius: 10px;
+      font-size: 14.718px;
+      font-weight: 500;
+      font-family: "Poppins", sans-serif;
+      color: rgb(47, 183, 132);
+      line-height: 2.718;
+      text-align: center;
+    }
+    &--button:hover {
+      opacity: 0.75;
+    }
+    &--nav {
+      z-index: 10;
+      display: flex;
+      position: unset;
+      align-items: center;
+      justify-content: center;
+      right: unset;
+      width: 50%;
       height: unset;
     }
     &--nav-hidden {
