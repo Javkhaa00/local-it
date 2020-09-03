@@ -30,10 +30,12 @@ const TheApp = () => {
                 <SwiperSlide>
                     <div className="app--carousel--wrapper">
                         <img src="/assets/layer2.png" alt="pic1" />
-                        <span className="app--carousel--title">Features 2</span>
-                        <span className="app--carousel--text">
-                            Be the first to know when 'your' favorite business have a new deal
-                        </span>
+                        <div>
+                            <span className="app--carousel--title">Features 2</span>
+                            <span className="app--carousel--text">
+                                Be the first to know when 'your' favorite business have a new deal
+                            </span>
+                        </div>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
@@ -41,7 +43,7 @@ const TheApp = () => {
                         <img src="/assets/layer3.png" alt="pic1" />
                         <span className="app--carousel--title">Features 3</span>
                         <span className="app--carousel--text">
-                            Strengthen your community with your continued loyalty! 
+                            Strengthen your community with your continued loyalty!
                         </span>
                     </div>
                 </SwiperSlide>
@@ -49,24 +51,30 @@ const TheApp = () => {
             <div className="app--carousel">
                 <div className="app--carousel--wrapper">
                     <img src="/assets/layer1.png" alt="pic1" />
-                    <span className="app--carousel--title">Features 1</span>
-                    <span className="app--carousel--text">
-                        Save time sifting through pages when you use LocalIT- all and only small businesses finally in only
-                    </span>
+                    <div className="app--carousel--wrapper--texts">
+                        <span className="app--carousel--title">Features 1</span>
+                        <span className="app--carousel--text">
+                            Save time sifting through pages when you use LocalIT- all and only small businesses finally in only
+                        </span>
+                    </div>
                 </div>
                 <div className="app--carousel--wrapper">
                     <img src="/assets/layer2.png" alt="pic1" />
-                    <span className="app--carousel--title">Features 2</span>
-                    <span className="app--carousel--text">
-                        Be the first to know when 'your' favorite business have a new deal
-                    </span>
+                    <div className="app--carousel--wrapper--texts">
+                        <span className="app--carousel--title">Features 2</span>
+                        <span className="app--carousel--text">
+                            Be the first to know when 'your' favorite business have a new deal
+                        </span>
+                    </div>
                 </div>
                 <div className="app--carousel--wrapper">
                     <img src="/assets/layer3.png" alt="pic1" />
-                    <span className="app--carousel--title">Features 3</span>
-                    <span className="app--carousel--text">
-                        Strengthen your community with your continued loyalty!
-                    </span>
+                    <div className="app--carousel--wrapper--texts">
+                        <span className="app--carousel--title">Features 3</span>
+                        <span className="app--carousel--text">
+                            Strengthen your community with your continued loyalty!
+                        </span>
+                    </div>
                 </div>
             </div>
             <div className="app--circle1" />
