@@ -106,6 +106,58 @@
   }
 }
 
+@media (min-width: 1501px) and (max-width: 1919px) {
+  .local {
+    background-color: $white;
+    position: relative;
+    height: 70vh;
+    padding-top: 104px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    &--container {
+      width: 85%;
+      padding-top: 32px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      padding-bottom: 40px;
+    }
+    &--cards {
+      width: 100%;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-top: 12px;
+      padding: 10px;
+      &--imgs {
+        height: 254px;
+        padding-bottom: 20px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+      }
+      img {
+        width: 100%;
+        height: 100%;
+      }
+      &--text {
+        padding-top: 24px;
+        width: 90%;
+        font-size: 14px;
+        font-family: "Poppins", sans-serif;
+        color: rgb(117, 117, 117);
+        line-height: 1.714;
+      }
+    }
+  }
+}
+
 @media (min-width: 1400px) and (max-width: 1500px) {
   .local {
     background-color: $white;

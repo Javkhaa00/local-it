@@ -144,6 +144,99 @@
   }
 }
 
+@media (min-width: 1501px) and (max-width: 1919px) {
+  .contacts {
+    font-family: "Poppins", sans-serif;
+    background-color: $white;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-top: 0;
+    padding-left: 0;
+    &--text-wrapper {
+      display: flex;
+      justify-content: center;
+      padding-left: 120px;
+      width: 40%;
+      flex-direction: column;
+    }
+    &--phone {
+      position: relative;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      width: 40%;
+      &--img {
+        z-index: 7;
+      }
+      &--circle1 {
+        border-radius: 50%;
+        background-color: rgb(119, 217, 180);
+        opacity: 0.302;
+        position: absolute;
+        left: 84px;
+        top: 204px;
+        width: 382px;
+        height: 382px;
+        z-index: 4;
+      }
+      &--circle2 {
+        border-radius: 50%;
+        background-color: rgb(119, 217, 180);
+        position: absolute;
+        left: 44px;
+        top: 64px;
+        width: 243px;
+        height: 243px;
+        z-index: 5;
+      }
+    }
+    &--us {
+      width: 70%;
+      font-family: "Poppins", sans-serif;
+      font-size: 18px;
+      color: rgb(119, 217, 180);
+      font-weight: 500;
+      line-height: 1;
+    }
+    &--title {
+      width: 70%;
+      font-size: 40px;
+      font-family: "Poppins", sans-serif;
+      color: rgb(0, 0, 0);
+      font-weight: 500;
+      line-height: 1.5;
+    }
+    &--desc {
+      width: 70%;
+      font-size: 14px;
+      font-family: "Poppins", sans-serif;
+      color: rgb(0, 0, 0);
+      line-height: 1.389;
+      padding-bottom: 36px;
+    }
+    &--texts {
+      width: 70%;
+      font-size: 14px;
+      font-family: "Poppins", sans-serif;
+      color: rgb(0, 0, 0);
+      line-height: 1.563;
+    }
+    &--wrappers {
+      display: flex;
+      align-items: center;
+      height: 54px;
+      width: 90%;
+      img {
+        padding-right: 10px;
+      }
+    }
+  }
+}
+
 @media (min-width: 1400px) and (max-width: 1500px) {
   .contacts {
     font-family: "Poppins", sans-serif;
