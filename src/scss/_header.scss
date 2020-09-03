@@ -14,6 +14,7 @@
     display: none;
   }
   &--nav {
+    background-color: inherit;
     z-index: 10;
     display: flex;
     align-items: flex-start;
@@ -27,6 +28,7 @@
     overflow-x: hidden;
   }
   &--nav-hidden {
+    background-color: inherit;
     display: flex;
     justify-content: center;
     z-index: 10;
@@ -170,6 +172,7 @@
       opacity: 0.75;
     }
     &--nav {
+      background-color: inherit;
       z-index: 10;
       display: flex;
       position: unset;
