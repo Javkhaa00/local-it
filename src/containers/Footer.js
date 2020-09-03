@@ -6,7 +6,11 @@ const Footer = () => {
             <div className="footer--column">
                 <div className="footer--column--wrapper">
                     <div className="footer--column--logo">
-                        <img src="/assets/local-it-logo.png" alt="footer-logo" />
+                        <img
+                            onClick={() => {
+                                window.location = "/";
+                            }} 
+                            src="/assets/local-it-logo.png" alt="footer-logo" />
                     </div>
                     <p className="footer--text1">
                         Professionally seize cross functional meta-services rather than sticky relationships. Quickly reintermediate worldwide.
