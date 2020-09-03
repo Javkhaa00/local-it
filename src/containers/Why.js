@@ -3,7 +3,7 @@ import { WhyCard } from '../components/WhyCard';
 
 const Why = () => {
     return (
-        <div className="why">
+        <div className="why" id="why-section">
             <span className="title">Why We Are Doing This?</span>
             <WhyCard />
             <div className="why--circle1" />

@@ -1,6 +1,14 @@
 import React, { useState } from 'react';
+import { useHistory } from "react-router-dom";
 
 const Header = () => {
+
+    const history = useHistory()
+
+    const goHome = (section) => {
+        history.push(`/?section=${section}`);
+        console.log(section)
+    }
 
     const [classActive, setClass] = useState("hamburger");
     const [menuSide, setMenu] = useState("header--nav");
@@ -8,7 +16,12 @@ const Header = () => {
     return (
         <div className="header">
             <div className="header--logo">
-                <img src="/assets/local-it-logo.png" alt="logo" />
+                <img
+                    onClick={() => {
+                        window.location = "/";
+                    }}
+                    src="/assets/local-it-logo.png" alt="logo"
+                />
             </div>
             <div
                 className={classActive}
@@ -28,10 +41,10 @@ const Header = () => {
             </div>
             <nav className={menuSide}>
                 <ul>
-                    <li><a>Start</a></li>
-                    <li><a>The app</a></li>
-                    <li><a>Who we are?</a></li>
-                    <li><a>Contact Us</a></li>
+                    <li><div className="nav-buttons" onClick={() => goHome("start-section")} >Start</div></li>
+                    <li><div className="nav-buttons" onClick={() => goHome("theapp-section")} >The app</div></li>
+                    <li><div className="nav-buttons" onClick={() => goHome("whoweare-section")} >Who we are?</div></li>
+                    <li><div className="nav-buttons" onClick={() => goHome("contact-section")} >Contact Us</div></li>
                     <li>
                         <span className="header--button">Are you a Local Business?</span>
                     </li>

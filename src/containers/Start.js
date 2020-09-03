@@ -2,7 +2,7 @@ import React from 'react';
 
 const Start = () => {
     return (
-        <div className="start">
+        <div className="start" id="start-section">
             <div className="start--column">
                 <span className="start--title">Know what you spend, know what you get</span>
                 <span className="start--what">

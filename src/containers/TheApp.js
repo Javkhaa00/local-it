@@ -9,7 +9,7 @@ import 'swiper/swiper.scss';
 const TheApp = () => {
 
     return (
-        <div className="app">
+        <div className="app" id="theapp-section">
             <span className="title" style={{ paddingBottom: "24px" }}>The App</span>
             <Swiper
                 spaceBetween={30}

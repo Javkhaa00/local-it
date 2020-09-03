@@ -8,7 +8,7 @@ import {
 
 const Contact = () => {
     return (
-        <div className="contacts">
+        <div className="contacts" id="contact-section">
             <div className="contacts--text-wrapper">
                 <span className="contacts--us">CONTACT US</span>
                 <span className="contacts--title">Get In Touch</span>

@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer = () => {
     return (
-        <div className="footer">
+        <div className="footer" id="footer-section">
             <div className="footer--column">
                 <div className="footer--column--wrapper">
                     <div className="footer--column--logo">
@@ -24,8 +24,6 @@ const Footer = () => {
                         <li>The App</li>
                         <li>Are you a Local Business?</li>
                         <li>Who we are?</li>
-                        <li>The App</li>
-                        <li>Contact us</li>
                     </ul>
                 </div>
                 <div className="footer--row--column">
