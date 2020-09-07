@@ -5,7 +5,7 @@
   flex-direction: column;
   width: 100%;
   &--prof {
-    margin-top: -70px;
+    margin-top: -84px;
   }
   &--container {
     padding-top: 40px;
@@ -16,7 +16,7 @@
     padding-bottom: 40px;
   }
   &--cards {
-    padding-bottom: 12px;
+    margin-bottom: 64px;
     text-align: center;
     display: flex;
     border-width: 2px;
@@ -27,7 +27,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 48px;
+    padding-bottom: 36px;
+    padding-top: 24px;
     width: 80%;
     &--name {
       font-size: 16px;
