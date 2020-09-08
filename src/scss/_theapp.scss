@@ -57,6 +57,12 @@
     margin: 0 !important;
     padding-bottom: 24px;
   }
+  .swiper-slide {
+    width: 300px;
+    margin-right: 0 !important;
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 @media (min-width: 1920px) {

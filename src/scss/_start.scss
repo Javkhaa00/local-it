@@ -605,3 +605,107 @@
     }
   }
 }
+
+@media (min-width: 720px) and (max-width: 999px) {
+  .start {
+    height: 70vh;
+    padding-top: 104px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 48px;
+    &--column {
+      display: flex;
+      align-items: flex-end;
+      width: 45%;
+    }
+    &--title {
+      width: 80%;
+      text-align: unset;
+      font-size: 42px;
+      font-family: "Poppins", sans-serif;
+      color: rgb(0, 0, 0);
+      font-weight: bold;
+      line-height: 1.052;
+    }
+    &--what {
+      width: 80%;
+      font-size: 20px;
+      text-align: left;
+      font-family: "Poppins", sans-serif;
+      color: rgb(117, 117, 117);
+      line-height: 1.5;
+    }
+    &--stores {
+      padding-top: 22px;
+      display: flex;
+      width: 80%;
+      flex-direction: row;
+      justify-content: unset;
+      align-items: center;
+      img {
+        width: 150px;
+        margin-left: 4px;
+        height: 64px;
+      }
+    }
+    &--phones {
+      width: 65%;
+      display: flex;
+      padding-top: 0px;
+      position: relative;
+      &--circle1 {
+        height: 252px;
+        width: 252px;
+        top: -32px;
+        left: 16px;
+        position: absolute;
+        border-radius: 50%;
+        background: rgb(72, 192, 147);
+        opacity: 0.5;
+      }
+      &--circle2 {
+        height: 102px;
+        top: 0px;
+        right: 44px;
+        position: absolute;
+        width: 102px;
+        opacity: 0.25;
+        border-radius: 50%;
+        background: rgb(72, 192, 147);
+      }
+      &--circle3 {
+        height: 162px;
+        bottom: 12px;
+        right: 60px;
+        position: absolute;
+        width: 162px;
+        opacity: 0.25;
+        border-radius: 50%;
+        background: rgb(72, 192, 147);
+      }
+      &--img1 {
+        position: relative;
+        top: 32px;
+        left: 64px;
+        z-index: 2;
+        img {
+          height: 540px;
+        }
+      }
+      &--img2 {
+        display: none;
+        z-index: 1;
+        position: absolute;
+        right: 84px;
+        bottom: -12px;
+        padding-top: 24px;
+        img {
+          height: 500px;
+        }
+      }
+    }
+  }
+}
