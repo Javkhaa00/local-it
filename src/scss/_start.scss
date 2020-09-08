@@ -300,7 +300,7 @@
   }
 }
 
-@media (min-width: 1400px) and (max-width: 1501px) {
+@media (min-width: 1400px) and (max-width: 1500px) {
   .start {
     height: 90vh;
     width: 100%;
@@ -402,7 +402,7 @@
   }
 }
 
-@media (min-width: 1200px) and (max-width: 1500px) {
+@media (min-width: 1200px) and (max-width: 1399px) {
   .start {
     height: 90vh;
     padding-top: 104px;
@@ -494,6 +494,108 @@
         z-index: 1;
         position: absolute;
         right: 104px;
+        bottom: -12px;
+        padding-top: 24px;
+        img {
+          height: 500px;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 1000px) and (max-width: 1199px) {
+  .start {
+    height: 75vh;
+    padding-top: 104px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 48px;
+    &--column {
+      display: flex;
+      align-items: flex-end;
+      width: 45%;
+    }
+    &--title {
+      width: 80%;
+      text-align: unset;
+      font-size: 42px;
+      font-family: "Poppins", sans-serif;
+      color: rgb(0, 0, 0);
+      font-weight: bold;
+      line-height: 1.052;
+    }
+    &--what {
+      width: 80%;
+      font-size: 20px;
+      text-align: left;
+      font-family: "Poppins", sans-serif;
+      color: rgb(117, 117, 117);
+      line-height: 1.5;
+    }
+    &--stores {
+      padding-top: 22px;
+      display: flex;
+      width: 80%;
+      flex-direction: row;
+      justify-content: unset;
+      align-items: center;
+      img {
+        width: 150px;
+        margin-left: 4px;
+        height: 64px;
+      }
+    }
+    &--phones {
+      width: 65%;
+      display: flex;
+      padding-top: 0px;
+      position: relative;
+      &--circle1 {
+        height: 352px;
+        top: -32px;
+        left: 16px;
+        position: absolute;
+        width: 352px;
+        border-radius: 50%;
+        background: rgb(72, 192, 147);
+        opacity: 0.5;
+      }
+      &--circle2 {
+        height: 142px;
+        top: 0px;
+        right: 44px;
+        position: absolute;
+        width: 142px;
+        opacity: 0.25;
+        border-radius: 50%;
+        background: rgb(72, 192, 147);
+      }
+      &--circle3 {
+        height: 162px;
+        bottom: 32px;
+        right: 60px;
+        position: absolute;
+        width: 162px;
+        opacity: 0.25;
+        border-radius: 50%;
+        background: rgb(72, 192, 147);
+      }
+      &--img1 {
+        position: center;
+        left: -12px;
+        z-index: 2;
+        img {
+          height: 540px;
+        }
+      }
+      &--img2 {
+        z-index: 1;
+        position: absolute;
+        right: 84px;
         bottom: -12px;
         padding-top: 24px;
         img {
