@@ -81,7 +81,6 @@
   }
 
   .nav-buttons::before {
-    opacity: 0.5;
     content: "";
     display: block;
     position: absolute;
@@ -95,13 +94,11 @@
   }
 
   .nav-buttons:active::before {
-    opacity: 0.5;
     background-color: $black;
   }
 
   .nav-buttons:hover::before,
   .nav-buttons:focus::before {
-    opacity: 0.5;
     transform-origin: center top;
     transform: scale(1, 1);
   }
