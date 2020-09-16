@@ -477,6 +477,9 @@
     position: fixed;
     align-items: center;
     &--logo {
+      width: 30%;
+      display: flex;
+      justify-content: center;
       img {
         height: 3rem;
         padding-left: 2rem;

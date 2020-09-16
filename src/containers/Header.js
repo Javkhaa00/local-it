@@ -41,10 +41,22 @@ const Header = () => {
             </div>
             <nav className={menuSide}>
                 <ul>
-                    <li><div className="nav-buttons" onClick={() => goHome("start-section")} >Start</div></li>
-                    <li><div className="nav-buttons" onClick={() => goHome("theapp-section")} >The app</div></li>
-                    <li><div className="nav-buttons" onClick={() => goHome("whoweare-section")} >Who we are?</div></li>
-                    <li><div className="nav-buttons" onClick={() => goHome("contact-section")} >Contact Us</div></li>
+                    <li><div
+                        className="nav-buttons"
+                        onClick={() => goHome("start-section")} >
+                        Start</div></li>
+                    <li><div
+                        className="nav-buttons"
+                        onClick={() => goHome("theapp-section")} >
+                        The app</div></li>
+                    <li><div
+                        className="nav-buttons"
+                        onClick={() => goHome("whoweare-section")} >
+                        Who we are?</div></li>
+                    <li><div
+                        className="nav-buttons"
+                        onClick={() => goHome("contact-section")} >
+                        Contact Us</div></li>
                     <li>
                         <span className="header--button">Are you a Local Business?</span>
                     </li>
