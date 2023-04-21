@@ -14,9 +14,9 @@
     "react-dom": "^16.13.1",
     "react-multi-carousel": "^2.5.5",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "3.4.1",
+    "react-scripts": "5.0.1",
     "react-scroll": "^1.8.1",
-    "serve": "^11.3.2",
+    "serve": "^14.2.0",
     "styled-components": "^5.1.1",
     "swiper": "^6.1.2"
   },
